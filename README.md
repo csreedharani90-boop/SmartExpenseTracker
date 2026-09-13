@@ -2,6 +2,12 @@
 
 A full-stack expense tracking web application built with Django (backend/REST API) and a single-page HTML/CSS/JavaScript frontend. Tracks expenses with categories, a monthly budget bar, a spending-by-category pie chart, and a Smart Insights panel that forecasts month-end spending and flags unusual expenses.
 
+## 🚀 Live Demo
+
+**Live Application:** https://smartexpensetracker-tuly.onrender.com
+
+**GitHub Repository:** https://github.com/csreedharani90-boop/SmartExpenseTracker
+
 ## Features
 
 - Full CRUD (Create, Read, Update, Delete) for expenses
@@ -36,41 +42,6 @@ Prerequisites: Python 3.10 or higher installed.
 
 1. Clone the repository
 
-       git clone https://github.com/csreedharani90-boop/SmartExpenseTracker.git
-       cd SmartExpenseTracker
-
-2. Create and activate a virtual environment
-
-       python -m venv venv
-       venv\Scripts\activate
-
-3. Install dependencies
-
-       pip install -r requirements.txt
-
-4. Run database migrations
-
-       python manage.py migrate
-
-5. Start the development server
-
-       python manage.py runserver
-
-6. Open the app
-
-   Visit http://127.0.0.1:8000/ in your browser.
-
-## API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | /api/expenses/ | List all expenses |
-| POST | /api/expenses/ | Create a new expense |
-| GET | /api/expenses/id/ | Retrieve a single expense |
-| PUT | /api/expenses/id/ | Update an existing expense |
-| DELETE | /api/expenses/id/ | Delete an expense |
-
-## Notes
-
-- The monthly budget is stored in browser localStorage, per device.
-- CSV export downloads all expenses currently in the database, not just the filtered or visible ones.
+   ```bash
+   git clone https://github.com/csreedharani90-boop/SmartExpenseTracker.git
+   cd SmartExpenseTracker
